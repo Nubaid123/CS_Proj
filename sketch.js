@@ -33,11 +33,11 @@ function setup() {
   gates.push(outputGate);
 
   // Show controls for 3 seconds
-  showUntil = millis() + 3000;
+  showUntil = millis() + 6000;
 }
 
 function draw() {
-  background(240);
+  background();
 
   // Show controls for 3 seconds
   if (millis() < showUntil) {
